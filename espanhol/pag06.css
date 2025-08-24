@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    background-color:  #524e4e;
+   
+    
+    
+    
+}
+#cabecalho_1 {
+    width: 100%;
+    height: 85px;
+    background-color: #a09d9d;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+#cabecalho_1 img {
+    width: 90px;
+    max-width: 100%;
+}
+#cabecalho_1 button {
+    background: none;
+    border: none;
+    box-shadow: none;
+    appearance: none;
+    -webkit-appearance: none;
+    color: #16154e;
+    font-size: 1.60em;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: OCR A Std, monospace;
+    text-shadow: 3px 3px 13px #252525;
+}
+#cabecalho_1 button:hover {
+    color: #d2d1f7;
+}
+
+ 
+
+#cabecalho {
+    background-color: rgba(5, 16, 31, 0.767);
+    margin-bottom: 200px;
+    padding: 0px;
+    height: 200px;
+    width: auto;
+    display: flex;
+   overflow: hidden;
+   opacity: 1;
+}
+#cabecalho h1 {
+    font-size: 3em;
+    display: inline;
+    align-items: center;
+    color: white;
+}
+.butoes button {
+    color: rgb(19, 224, 19);
+    background-color: black;
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+   border-radius: 14px;
+   box-sizing: border-box;
+   box-shadow: black ;
+   font-size: 3em;
+ display: inline;
+}
+@media  screen and(max-width:800px ) {
+   body {
+    min-width: 100%;
+    font-size: 18px;
+    
+   }
+ 
+}
+.butoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btn {
+    position: relative;
+    display: flex;
+    grid-template-columns: 2fr 200px;
+    padding: 20px 20px;
+    justify-content: space-between;
+
+}.btn img{
+    position: absolute;
+bottom: 100%;
+left: 50%;
+transform: translateX(-50%) translateY(20px);
+opacity: 0;
+width: 400px;
+height: 300px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 3);
+pointer-events: none;
+transition: all 0.4s ease;
+top: 01%;
+
+}
+.btn button {
+    padding: 20px 40px;
+    border: none;
+    background: #7e85a2;
+    color: #1e1248;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    
+}
+.btn button:hover img {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 40px;
+    font-family: "ubuntu";
+    grid-template-columns: 1fr 200px;
+}
+.btn iframe {
+    position: absolute;
+    opacity: 0;
+width: 100px;
+height: 100px;
+margin-left: 90px;
+transform: translateX(-50%), translateY(20px);
+border-radius: 10px;
+transition: all 0.4s ease;
+bottom: 88% ;
+
+
+
+}
+.btn button:hover iframe {
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+    transform: translateY(40px);
+    
+
+}
+.btn button  p {
+    position: absolute;
+    font-size: 0em;
+    border: solid white 3px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    height: 200px;
+    width: px;
+   margin-left: 055px; 
+    top: 40%;
+ left: -1px;
+ color: rgb(255, 255, 255);
+ transition: all 0.5s ease-in-out;
+    
+}
+.btn button:hover p  {
+    font-size: 0.4em;
+    width: 559px;
+}
+.btn button {
+    width: 600px;
+    height: 500px;
+    border-radius: 40px;
+    font:"Ubuntu";
+    font-size: 3.2em;
+}
+.btn button h1 {
+    font-size: 1.1em;
+    transition: all 0.4s ease-in-out;
+    
+
+}
+    .butoes .btn button:hover h1 {
+    margin-top: 420px;
+        
+
+    }
+    .btn #Balneario iframe{
+        right: 10%;
+    }
+    .btn #Balneario h1 {
+        font-size: 1em;
+    }
+
+#rodape {
+    width: 100%;
+    height: 80px;
+    background-color: #a09d9d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#rodape img {
+    width: 70px;
+    max-width: 100%;
+}
+#rodape p {
+    font-size: 1em;
+    color: 16154e;
+    color: #16154e;
+    font-family: OCR A Std, monospace;
+    margin-left: 20px;
+}
