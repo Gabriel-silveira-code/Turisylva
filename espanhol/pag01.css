@@ -83,7 +83,7 @@ body {
     margin: 0 auto;
     position: relative;
     padding-bottom: 56.25%;
-    height: 0;
+    height: 500px;
     border: 8px solid #201f64;
     border-radius: 12px;
     background-color: transparent;
@@ -129,6 +129,7 @@ body {
     margin-left: 20px;
 
 }
+
 
 
 
