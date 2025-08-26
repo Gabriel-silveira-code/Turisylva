@@ -80,7 +80,7 @@ body {
 
 #quadro-vazado {
     display: flex;
-    width: 700px;
+    width: 850px;
     margin: 20px auto;
     position: relative;
     aspect-ratio: 16 / 9;
@@ -131,6 +131,7 @@ body {
     margin-left: 20px;
 
 }
+
 
 
 
