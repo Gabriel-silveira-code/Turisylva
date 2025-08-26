@@ -103,7 +103,7 @@ body {
 }
 
 /* Media query para telas menores que 600px */
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   #quadro-vazado {
     max-width: 100%;
     padding-bottom: 75%;
@@ -131,6 +131,7 @@ body {
     margin-left: 20px;
 
 }
+
 
 
 
