@@ -79,23 +79,31 @@ body {
 }
 
 #quadro-vazado {
-    display: flex;
-    width: 1200px; 
-    aspect-ratio: 16 / 9;
-    border: 8.5px solid #201f64;
-    background-color: transparent;
-    border-radius: 12px;
-    margin: 0 auto;
-    padding: 5px;
-    margin-bottom: 50px;
+  width: 100%;
+  max-width: 800px; /* limite em telas grandes */
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 56.25%; /* proporção 16:9 */
+  height: 0;
 }
-#quadro-vazado_video {
-    display: flex;
-    aspect-ratio: 16 / 9;
-    border: none;
-    border-radius: 12px;
-    margin: 0 auto;
+
+#quadro-vazado iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
+
+/* Media query para telas menores que 600px */
+@media (max-width: 600px) {
+  #quadro-vazado {
+    max-width: 100%;
+    padding-bottom: 75%; /* proporção mais alta (4:3) em celulares */
+  }
+}
+
 
 #rodape {
     width: 100%;
@@ -115,4 +123,5 @@ body {
     color: 16154e;
     font-family: OCR A Std, monospace;
     margin-left: 20px;
+
 }
