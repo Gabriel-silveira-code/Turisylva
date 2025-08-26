@@ -80,7 +80,7 @@ body {
 
 #quadro-vazado {
     display: flex;
-    width: 850px;
+    width: 1200px;
     margin: 20px auto;
     position: relative;
     aspect-ratio: 16 / 9;
@@ -102,7 +102,7 @@ body {
 }
 
 /* Media query para telas menores que 600px */
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
   #quadro-vazado {
     max-width: 100%;
     padding-bottom: 75%;
@@ -130,6 +130,7 @@ body {
     margin-left: 20px;
 
 }
+
 
 
 
