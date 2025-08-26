@@ -80,11 +80,14 @@ body {
 
 #quadro-vazado {
     width: 700px
-    max-width: 800px; 
     margin: 0 auto;
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
+    border: 8px solid #201f64;
+    border-radius: 12px;
+    background-color: transparent;
+    box-sizing: border-box; 
 }
 
 #quadro-vazado iframe {
@@ -93,8 +96,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 8px solid #201f64;
     border-radius: 12px;
+    border: none;
 }
 
 /* Media query para telas menores que 600px */
@@ -126,6 +129,7 @@ body {
     margin-left: 20px;
 
 }
+
 
 
 
