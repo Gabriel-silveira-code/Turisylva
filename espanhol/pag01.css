@@ -79,6 +79,7 @@ body {
 }
 
 #quadro-vazado {
+    background-color: blue;
     width: 100%;
     max-width: 800px; 
     margin: 0 auto;
@@ -125,4 +126,5 @@ body {
     margin-left: 20px;
 
 }
+
 
