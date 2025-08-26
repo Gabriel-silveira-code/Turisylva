@@ -80,11 +80,11 @@ body {
 
 #quadro-vazado {
     display: flex;
-    width: 600px;
+    width: 700px;
     margin: 20px auto;
     position: relative;
     aspect-ratio: 16 / 9;
-    height: 700px;
+    height: 600px;
     border: 8px solid #201f64;
     border-radius: 12px;
     background-color: transparent;
@@ -131,6 +131,7 @@ body {
     margin-left: 20px;
 
 }
+
 
 
 
