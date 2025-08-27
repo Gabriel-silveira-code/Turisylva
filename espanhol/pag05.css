@@ -62,21 +62,23 @@ p {
 
 .quadro-vazado {
     display: flex;
-    width: 650px; 
+    max-width: 650px;
+    position: relative;
     aspect-ratio: 16 / 9;
     border: 8.5px solid #201f64;
     background-color: transparent;
     border-radius: 12px;
-    margin: 0 auto;
-    padding: 5px;
-    margin-bottom: 50px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    justfy-content: center;
+    align-items: center;
+    overflow: hidden;
 }
-.comidas {
-    display: flex;
-    aspect-ratio: 16 / 9;
+.quadro-vazado img {
+    width: 100%;
+    height: 100%;
     border: none;
     border-radius: 12px;
-    margin: 0 auto;
 }
 
 #rodape {
@@ -98,4 +100,5 @@ p {
     color: #16154e;
     font-family: OCR A Std, monospace;
     margin-left: 20px;
+
 }
